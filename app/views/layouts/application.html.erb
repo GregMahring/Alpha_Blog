@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>AlphaBlog</title>
   <%= csrf_meta_tags %>
 
@@ -9,7 +11,11 @@
 </head>
 
 <body>
-  <%= 'layouts/messages' %>
+<%= render 'layouts/navbar' %>
+<%= render 'layouts/header' %>
+<%= render 'layouts/messages' %>
+<div class="contiainer-fluid">
   <%= yield %>
+</div>
 </body>
 </html>

@@ -1,2 +1,23 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-toggle, .navbar-toggle:hover {
+  background-color: #362109;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: #f26717;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ddd;
+}
+
+h1{
+  text-align: center;
+}
