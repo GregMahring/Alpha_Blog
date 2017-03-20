@@ -18,25 +18,45 @@
   background-color: #ddd;
 }
 
-h1, h2{
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+h1, h2 {
   text-align: center;
 }
 
-.article-actions{
+.article-meta-details {
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+}
+
+.article-actions {
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
 }
 
-.description{
+.description {
   margin-top: 0;
 }
 
-.article-title{
+.article-title {
   font-weight: bold;
   font-size: 1.5em;
 }
 
-.article-body{
+.article-body {
   border-top: 1px solid #eaeaea;
   padding-top: 15px;
   padding-bottom: 15px;
