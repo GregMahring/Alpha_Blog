@@ -33,7 +33,7 @@ footer small {
   float: left;
 }
 
-h1, h2 {
+h1, h2, h4 {
   text-align: center;
 }
 
@@ -60,4 +60,13 @@ h1, h2 {
   border-top: 1px solid #eaeaea;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
+
+.center{
+  text-align: center;
 }
